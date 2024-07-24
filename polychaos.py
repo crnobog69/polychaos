@@ -91,7 +91,7 @@ def main():
     cipher = EnhancedPoliChaosCipher(key)
 
     while True:
-        print(f"{YELLOW}\n--- PoliChaos Cipher ---{RESET}")
+        print(f"{YELLOW}\n--- PolyChaos Cipher ---{RESET}")
         choice = input(f"{GREEN}Izaberite opciju (E za šifrovanje, D za dešifrovanje, Q za izlaz): {RESET}").upper()
         if choice == 'E':
             message = input(f"{CYAN}Unesite poruku za šifrovanje: {RESET}")
